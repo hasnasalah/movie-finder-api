@@ -12,8 +12,12 @@ A node.js server API that allows  users to search for movies and fetch detailed 
 
 
 ## Project Setup
+ 
 
 ```bash
+# clone the repositry in local machine
+
+git clone https://github.com/hasnasalah/movie-finder-api
 # Create project directory
 mkdir movie-finder-api
 cd movie-finder-api
