@@ -2,14 +2,12 @@ const express=require("express");
 const app=express();
 require("dotenv").config();
 const PORT=process.env.PORT||3001;
-const movieRouter = require('./controllers/movieController');
+const movieRouter = require('./routes/movieRoutes');
 
 app.use(express.json());
 app.use(express.urlencoded());
 
-
-
-
+app.use("/api",movieRouter);
 
 
 
